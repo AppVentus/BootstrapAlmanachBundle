@@ -1,0 +1,37 @@
+{% block panel_before %}{% endblock panel_before %}
+
+{% block panel %}
+    <div {% block panel_attr %}class="panel panel-{% block panel_theme %}{% endblock panel_theme %}{% block panel_class %}{% endblock panel_class %}" id="{% block panel_id %}{% endblock panel_id %}"{% endblock panel_attr %}>
+        {% block panel_heading_before %}{% endblock panel_heading_before %}
+
+        {% block panel_heading %}
+            <div {% block panel_heading_attr %}class="{% block panel_heading_class %}panel-heading{% endblock panel_heading_class %}"{% endblock panel_heading_attr %}>
+                {% block panel_heading_content %}{% endblock panel_heading_content %}
+            </div>
+        {% endblock panel_heading %}
+
+        {% block panel_heading_after %}{% endblock panel_heading_after %}
+
+        {% block panel_body_before %}{% endblock panel_body_before %}
+
+        {% block panel_body %}
+            <div {% block panel_body_attr %}class="{% block panel_body_class %}panel-body{% endblock panel_body_class %}"{% endblock panel_body_attr %}>
+                {% block panel_body_content %}{% endblock panel_body_content %}
+            </div>
+        {% endblock panel_body %}
+
+        {% block panel_body_after %}{% endblock panel_body_after %}
+
+        {% block panel_footer_before %}{% endblock panel_footer_before %}
+
+        {% block panel_footer %}
+            <div {% block panel_footer_attr %}class="{% block panel_footer_class %}panel-footer{% endblock panel_footer_class %}"{% endblock panel_footer_attr %}>
+                {% block panel_footer_content %}{% endblock panel_footer_content %}
+            </div>
+        {% endblock panel_footer %}
+
+        {% block panel_footer_after %}{% endblock panel_footer_after %}
+    </div>
+{% endblock panel %}
+
+{% block panel_after %}{% endblock panel_after %}
