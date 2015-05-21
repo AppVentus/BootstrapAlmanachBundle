@@ -1,0 +1,27 @@
+{
+    "name": "appventus/bootstrap-almanach-bundle",
+    "type": "symfony-bundle",
+    "description": "All the twitter bootstrap components in proper twig ready to extends !",
+    "keywords": ["bootstrap"],
+    "homepage": "http://appventus.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Loic Goyet",
+            "email": "loic@appventus.com"
+        },
+        {
+            "name": "Leny Bernard",
+            "email": "leny@appventus.com"
+        },
+        {
+            "name": "Paul Andrieux",
+            "email": "paul@appventus.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "AppVentus\\BootstrapAlmanachBundle": "" }
+    },
+    "target-dir": "AppVentus/BootstrapAlmanachBundle",
+    "minimum-stability": "dev"
+}
