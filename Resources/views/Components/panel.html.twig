@@ -1,7 +1,7 @@
 {% block panel_before %}{% endblock panel_before %}
 
 {% block panel %}
-    <div {% block panel_attr %}class="panel panel-{% block panel_theme %}default{% endblock panel_theme %}{% block panel_class %}{% endblock panel_class %}" id="{% block panel_id %}{% endblock panel_id %}"{% endblock panel_attr %}>
+    <div {% block panel_attr %}class="panel panel-{% block panel_theme %}default{% endblock panel_theme %} {% block panel_class %}{% endblock panel_class %}" id="{% block panel_id %}{% endblock panel_id %}"{% endblock panel_attr %}>
         {% block panel_heading_before %}{% endblock panel_heading_before %}
 
         {% block panel_heading %}
